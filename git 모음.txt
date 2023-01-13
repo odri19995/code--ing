@@ -1,0 +1,37 @@
+1. git config --global user.email "odri19995@gmail.com"
+2. git config --global user.name "odri19995"
+3. cd aiffel 
+4. cd workplace
+5. ls
+6. git init 
+7. # git status
+8. git add 
+9, git commit -m "   "
+10. git push origin master
+token : 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
+
+
+git add . 전체 저장
+
+git commit -m "delete"
+git push second master 로 실행햇더니 오류가 떴다.
+이건 파일 손상 우려가 있다는 뜻이지만 
+강제로 올리고 싶다면 git push second +master를 써서 올리면 된다.
+
+
+NEW Git
+
+1. cd 경로
+
+2. git init
+
+3. git pull https://github.com/odri19995/Aiffelton.git
+
+4. git branch -M main or master
+
+5. git status
+
+6. git add .
+7. git commit -m "flower file move test"
+8. git push -u origin main or
+9. git push
