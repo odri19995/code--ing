@@ -75,5 +75,9 @@ $git push origin +main/+master
 => 협업 중에 이 방법을 쓰면
 팀원 소스가 덧씌워져서 날아갈 수 있다.
  
-
-
+ 
+ 
+ vim.gitignore -> a -> 원하는 내용 입력 -> esc키 -> :wq! -> enter키 
+ git add.
+ git commit -m "메세지"
+ git push origin master
