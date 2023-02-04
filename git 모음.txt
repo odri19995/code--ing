@@ -35,3 +35,14 @@ NEW Git
 7. git commit -m "flower file move test"
 8. git push -u origin main or
 9. git push
+
+
+시간여행 commit 알파벳 복사<br>
+git checkout  알파벳 <br>
+최신상태로 되돌리기 <br>
+git checkout . <열기><br>
+git checkout master<br>
+git checkout . <열기><br>
+
+git log
+
