@@ -46,3 +46,15 @@ git checkout . <닫기>
 
 git log
 
+git error 403 solution이 일어났을 경우
+
+권한을 부여하기 위해서 인증을 해야한다.
+인증을 하기 위해서 가장 먼저 원격 저장소 URL을 올바르게 변경해 주어야 한다.
+$ git remote set-url origin https://<user-name>@github.com/<user-name>/<repository-name>.git
+위의 명령어에서 <user-name> , <repository-name> 을 변경해주자.
+PUSH 시도
+github 페이지에서 password 입력
+$ git push -u origin master  ( -u 는 upstream의 약자)
+
+https://velog.io/@nu11/Git-PUSH-%ED%95%A0-%EB%95%8C-403-%EC%97%90%EB%9F%AC-%EB%B0%9C%EC%83%9DThe-requested-URL-returned-error-403
+
