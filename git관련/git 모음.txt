@@ -1,0 +1,60 @@
+1. git config --global user.email "odri19995@gmail.com"
+2. git config --global user.name "odri19995"
+3. cd aiffel 
+4. cd workplace
+5. ls
+6. git init 
+7. # git status
+8. git add 
+9, git commit -m "   "
+10. git push origin master
+token : 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
+
+
+git add . 전체 저장
+
+git commit -m "delete"
+git push second master 로 실행햇더니 오류가 떴다.
+이건 파일 손상 우려가 있다는 뜻이지만 
+강제로 올리고 싶다면 git push second +master를 써서 올리면 된다.
+
+
+NEW Git
+
+1. cd 경로
+
+2. git init
+
+3. git pull https://github.com/odri19995/Aiffelton.git
+
+4. git branch -M main or master
+
+5. git status
+
+6. git add .
+7. git commit -m "flower file move test"
+8. git push -u origin main or
+9. git push
+
+
+시간여행 commit 알파벳 복사
+git checkout  알파벳 
+최신상태로 되돌리기 
+git checkout . <열기>
+git checkout master
+git checkout . <닫기>
+
+git log
+
+git error 403 solution이 일어났을 경우
+
+권한을 부여하기 위해서 인증을 해야한다.
+인증을 하기 위해서 가장 먼저 원격 저장소 URL을 올바르게 변경해 주어야 한다.
+$ git remote set-url origin https://<user-name>@github.com/<user-name>/<repository-name>.git
+위의 명령어에서 <user-name> , <repository-name> 을 변경해주자.
+PUSH 시도
+github 페이지에서 password 입력
+$ git push -u origin master  ( -u 는 upstream의 약자)
+
+https://velog.io/@nu11/Git-PUSH-%ED%95%A0-%EB%95%8C-403-%EC%97%90%EB%9F%AC-%EB%B0%9C%EC%83%9DThe-requested-URL-returned-error-403
+
