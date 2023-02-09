@@ -58,3 +58,11 @@ $ git push -u origin master  ( -u 는 upstream의 약자)
 
 https://velog.io/@nu11/Git-PUSH-%ED%95%A0-%EB%95%8C-403-%EC%97%90%EB%9F%AC-%EB%B0%9C%EC%83%9DThe-requested-URL-returned-error-403
 
+
+
+commit 삭제법 
+https://iancoding.tistory.com/319
+
+$ git reset --hard (81c38fa)
+$ git push -f
+
