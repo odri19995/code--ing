@@ -66,3 +66,10 @@ https://iancoding.tistory.com/319
 $ git reset --hard (81c38fa)
 $ git push -f
 
+
+commit 잘못 쳤는데 아직 push안했을 때
+$ git commit --amend
+수정하고 esc :wq 로 에디터 종료
+git commit --amend -m “last commit and Add.js” // 에디터 미사용
+
+
