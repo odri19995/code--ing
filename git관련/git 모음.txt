@@ -75,5 +75,9 @@ git commit --amend -m “last commit and Add.js” // 에디터 미사용
 [Git 경고 메세지] LF will be replaced by CRLF in 해결 방안
 https://dabo-dev.tistory.com/13
 
+.gitignore 생성 
 
+vim.gitignore 
+i insert 목록쓰고
+esc : wq 종료 
 
