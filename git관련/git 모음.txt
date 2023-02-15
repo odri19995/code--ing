@@ -81,5 +81,5 @@ vim.gitignore
 i insert 목록쓰고
 esc : wq 종료 
 
-
+깃 그대로 복사하기
 git clone (레포지터리 주소) 띄어쓰기> (새로 지을 이름) 
