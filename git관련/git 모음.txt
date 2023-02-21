@@ -12,6 +12,8 @@ token : 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
 
 
 git add . 전체 저장
+$  git branch -M main   브런치 메인으로 바꾸기
+
 
 git commit -m "delete"
 git push second master 로 실행햇더니 오류가 떴다.
